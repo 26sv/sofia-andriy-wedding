@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sofia e Andriy · Matrimonio</title>
+<meta name="description" content="Il matrimonio di Sofia e Andriy — Osteria Al di là del Fiume, Marzabotto (BO).">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home">S &amp; A</a>
+  <nav>
+    <a href="#location">Location</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#rsvp">RSVP</a>
+    <a href="#nozze">Viaggio di nozze</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <p class="eyebrow">Save the date</p>
+  <h1>Sofia <span>&amp;</span> Andriy</h1>
+  <p class="tagline">vi aspettiamo per festeggiare il nostro matrimonio…</p>
+  <p class="date">2026 · Marzabotto (BO)</p>
+  <a class="btn" href="#rsvp">RSVP</a>
+</section>
+
+<section id="gallery" class="gallery">
+  <figure class="ph">Foto 1<br><small>sostituisci con img-6633</small></figure>
+  <figure class="ph">Foto 2<br><small>sostituisci con img-6117</small></figure>
+</section>
+
+<section id="location">
+  <h2>Location</h2>
+  <div class="card">
+    <h3>Osteria Al di là del Fiume</h3>
+    <p>Via S. Martino 10, Località Ca di Cò<br>Marzabotto (BO)</p>
+    <p class="links">
+      <a href="https://www.aldiladelfiume.it/osteria/" target="_blank" rel="noopener">Sito web</a> ·
+      <a href="https://instagram.com/osteria.aldiladelfiume" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="https://www.google.com/maps/search/?api=1&query=Osteria+Al+di+l%C3%A0+del+Fiume+Marzabotto" target="_blank" rel="noopener">Apri in Maps</a>
+    </p>
+  </div>
+</section>
+
+<section id="timeline">
+  <h2>Timeline</h2>
+  <p class="note">Bozza: il programma originale è un'immagine. Inserisci qui gli orari reali.</p>
+  <ol class="tl">
+    <li><b>--:--</b> Accoglienza degli ospiti</li>
+    <li><b>--:--</b> Cerimonia</li>
+    <li><b>--:--</b> Aperitivo</li>
+    <li><b>--:--</b> Pranzo / Cena</li>
+    <li><b>--:--</b> Taglio della torta e festa</li>
+  </ol>
+</section>
+
+<section id="rsvp">
+  <h2>RSVP</h2>
+  <p class="lead">La vostra presenza renderà questo giorno ancora più speciale.</p>
+  <p class="note">Per poter organizzare al meglio il nostro giorno vi chiediamo di rispondere entro il 15/06/2026.</p>
+  <form id="rsvp-form">
+    <label>Sarai presente? *
+      <select name="presenza" required>
+        <option value="">Seleziona…</option>
+        <option>Sì, non vedo l'ora</option>
+        <option>No, purtroppo non potrò esserci</option>
+      </select>
+    </label>
+    <label>N. di ospiti *
+      <input type="number" name="ospiti" min="0" required>
+    </label>
+    <label>Indica eventuali allergie alimentari *
+      <input type="text" name="allergie" placeholder="Nessuna, se non ne hai" required>
+    </label>
+    <label>E-mail *
+      <input type="email" name="email" required>
+    </label>
+    <div class="row">
+      <label>Nome *<input type="text" name="nome" required></label>
+      <label>Cognome *<input type="text" name="cognome" required></label>
+    </div>
+    <button class="btn" type="submit">Invia</button>
+    <p id="rsvp-msg" class="note" hidden></p>
+  </form>
+</section>
+
+<section id="nozze">
+  <h2>Viaggio di nozze</h2>
+  <p class="lead">Ogni gesto diventerà un ricordo da portare con noi.</p>
+  <p>Chi desidera contribuire al nostro viaggio di nozze può contattare le nostre referenti, Giuliana e Iryna, che si occupano di ogni dettaglio.</p>
+</section>
+
+<footer>Sofia &amp; Andriy · 2026 — bozza non ufficiale</footer>
+<script src="script.js"></script>
+</body>
+</html>
