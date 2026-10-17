@@ -22,7 +22,9 @@
       "Bash(sed -i '' '/prefers-color-scheme:dark/d' style.css)",
       "Bash(git commit -qm 'Solo tema chiaro *)",
       "Bash(sed -i '' 's/padding:0 16px;max-width:900px/padding:0 16px;max-width:520px/' style.css)",
-      "Bash(git commit -qm 'Foto più piccola *)"
+      "Bash(git commit -qm 'Foto più piccola *)",
+      "Bash(sed -i '' '2d' style.css)",
+      "Bash(sed -i '' '1s/$/\\\\nhtml{color-scheme:light}/' style.css)"
     ]
   }
 }
