@@ -13,7 +13,8 @@
       "Bash(cp /private/tmp/claude-501/-Users-simoneventura-PROVA-SITO-WEDDING-PER-SPOSI/0bf2d825-1e0a-4150-9869-59dac6d539e4/images/1.webp img/foto1.webp)",
       "Bash(python3 -)",
       "Bash(git commit -qm 'Aggiunge foto della coppia *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git commit -qm 'Aggiunge mappa Google Maps nella location *)"
     ]
   }
 }
