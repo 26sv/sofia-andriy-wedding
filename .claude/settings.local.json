@@ -24,7 +24,9 @@
       "Bash(sed -i '' 's/padding:0 16px;max-width:900px/padding:0 16px;max-width:520px/' style.css)",
       "Bash(git commit -qm 'Foto più piccola *)",
       "Bash(sed -i '' '2d' style.css)",
-      "Bash(sed -i '' '1s/$/\\\\nhtml{color-scheme:light}/' style.css)"
+      "Bash(sed -i '' '1s/$/\\\\nhtml{color-scheme:light}/' style.css)",
+      "Bash(sed -i '' '1s/.*/:root{--bg:#fffaf2;--ink:#c2570c;--muted:#b8631a;--accent:#e8731a;--card:#ffffff;--line:#fbe0c4}/' style.css)",
+      "Bash(git commit -qm 'Sfondo chiaro e testi arancioni *)"
     ]
   }
 }
