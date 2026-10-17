@@ -35,3 +35,5 @@ input,select{font:inherit;color:var(--ink);background:var(--card);border:1px sol
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 form .btn{justify-self:center}
 footer{text-align:center;padding:40px 16px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line)}
+.gallery figure{margin:0}
+.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}

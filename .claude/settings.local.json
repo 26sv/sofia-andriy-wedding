@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sofiaeandriy2026.weebly.com)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -qm 'Bozza sito matrimonio Sofia e Andriy *)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(mkdir -p img)",
+      "Bash(cp /private/tmp/claude-501/-Users-simoneventura-PROVA-SITO-WEDDING-PER-SPOSI/0bf2d825-1e0a-4150-9869-59dac6d539e4/images/1.webp img/foto1.webp)",
+      "Bash(python3 -)",
+      "Bash(git commit -qm 'Aggiunge foto della coppia *)",
+      "Bash(git push *)"
+    ]
+  }
+}
