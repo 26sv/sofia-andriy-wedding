@@ -1,5 +1,4 @@
 :root{--bg:#fbefe1;--ink:#4a2e22;--muted:#9a6f58;--accent:#c4562f;--card:#fff8ef;--line:#efd3b8}
-@media (prefers-color-scheme:dark){:root{--bg:#2a1912;--ink:#f6e6d4;--muted:#c9a488;--accent:#ee8a5a;--card:#37221a;--line:#52352a}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:'Jost',sans-serif;font-weight:300;line-height:1.7}
