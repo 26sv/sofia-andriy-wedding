@@ -15,7 +15,8 @@
       "Bash(git commit -qm 'Aggiunge foto della coppia *)",
       "Bash(git push *)",
       "Bash(git commit -qm 'Aggiunge mappa Google Maps nella location *)",
-      "Bash(git commit -qm 'Aggiunge orari indicativi alla timeline *)"
+      "Bash(git commit -qm 'Aggiunge orari indicativi alla timeline *)",
+      "Bash(git commit -qm 'Rimuove '\\\\''Osteria'\\\\'' dai testi *)"
     ]
   }
 }
