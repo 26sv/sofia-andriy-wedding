@@ -20,7 +20,9 @@
       "Bash(sed -i '' -e 's/--bg:#faf7f2;--ink:#3b3631;--muted:#8a8178;--accent:#a8795a;--card:#fff;--line:#e8e0d5/--bg:#fbefe1;--ink:#4a2e22;--muted:#9a6f58;--accent:#c4562f;--card:#fff8ef;--line:#efd3b8/' -e 's/--bg:#1d1a17;--ink:#eee7de;--muted:#a39a90;--accent:#d3a280;--card:#27231f;--line:#3a342e/--bg:#2a1912;--ink:#f6e6d4;--muted:#c9a488;--accent:#ee8a5a;--card:#37221a;--line:#52352a/' style.css)",
       "Bash(git commit -qm 'Palette di colori più calda *)",
       "Bash(sed -i '' '/prefers-color-scheme:dark/d' style.css)",
-      "Bash(git commit -qm 'Solo tema chiaro *)"
+      "Bash(git commit -qm 'Solo tema chiaro *)",
+      "Bash(sed -i '' 's/padding:0 16px;max-width:900px/padding:0 16px;max-width:520px/' style.css)",
+      "Bash(git commit -qm 'Foto più piccola *)"
     ]
   }
 }
